@@ -1,6 +1,14 @@
-import React from "react";
+import React, { Fragment } from "react";
 import "normalize.css";
+import Navigation from "./navigation";
+import Footer from "./footer";
 
 export default function Layout(props) {
-  return <div>{props.children}</div>;
+  return (
+    <Fragment>
+      <Navigation />
+      <main>{props.children}</main>
+      <Footer />
+    </Fragment>
+  );
 }
