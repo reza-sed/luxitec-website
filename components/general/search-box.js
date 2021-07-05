@@ -1,13 +1,13 @@
 import React from "react";
 import classes from "./search-box.module.css";
+import Icon from "./icon";
+import { ICONS } from "../../constants/icons";
 
 export default function SearchBox() {
   return (
     <div className={classes.search}>
       <input type="text" placeholder="search" />
-      <svg className="icon">
-        <use xlinkHref="/images/sites/sprite.svg#magnifying-glass"></use>
-      </svg>
+      <Icon name={ICONS.magnifier} />
     </div>
   );
 }

@@ -1,4 +1,6 @@
 import React from "react";
+import { ICONS } from "../../constants/icons";
+import Icon from "../general/icon";
 
 import classes from "./hero.module.css";
 
@@ -16,7 +18,12 @@ export default function Hero() {
           Read more
         </a>
       </section>
-      <seciotn className={classes.social}></seciotn>
+      <seciotn className={classes.social}>
+        <Icon name={ICONS.instagram} />
+        <Icon name={ICONS.facebook} />
+        <Icon name={ICONS.linkedin} />
+        <Icon name={ICONS.twitter} />
+      </seciotn>
     </div>
   );
 }
