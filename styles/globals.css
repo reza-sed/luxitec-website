@@ -1,3 +1,11 @@
+:root {
+  --color-primary: #000000;
+  --color-secondary: #5d5b5b;
+  --color-accent: #ddb53d;
+  --color-headings: #000000;
+  --color-body: #000000;
+}
+
 * {
   box-sizing: border-box;
 }
