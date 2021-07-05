@@ -1,6 +1,5 @@
-.layout {
-  background: url("/images/sites/cover.png") no-repeat;
-  /* linear-gradient(
+.splash {
+  background: linear-gradient(
       90.25deg,
       #000000 26.97%,
       rgba(0, 0, 0, 0.45) 100.04%,
@@ -10,5 +9,7 @@
       rgba(0, 0, 0, 0.0592119) 162.67%,
       rgba(0, 0, 0, 0.0437501) 162.68%,
       rgba(0, 0, 0, 0.81) 162.7%
-    ); */
+    ),
+    url("/images/sites/cover.png") center center fixed no-repeat;
+  height: 100vh;
 }

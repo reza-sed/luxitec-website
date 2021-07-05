@@ -48,9 +48,29 @@ h3 {
 
 p {
   margin-top: 0;
+  margin-bottom: 3.6rem;
 }
 
 .icon {
   width: 24px;
   height: 24px;
+}
+
+.btn {
+  width: 170px;
+  border-radius: 50px;
+  height: 54px;
+  display: inline-block;
+  text-decoration: none;
+  outline: none;
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: var(--color-secondary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn--accent {
+  background: var(--color-accent);
 }

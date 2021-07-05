@@ -9,6 +9,7 @@
   background: transparent;
   outline: none;
   border: 0;
+  color: var(--color-secondary);
 }
 
 .container select option {

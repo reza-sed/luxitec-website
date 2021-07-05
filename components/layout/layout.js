@@ -9,7 +9,7 @@ import classes from "./layout.module.css";
 export default function Layout(props) {
   return (
     <Fragment>
-      <div className={classes.layout}>
+      <div className={classes.splash}>
         <Navigation />
         <Hero />
       </div>
