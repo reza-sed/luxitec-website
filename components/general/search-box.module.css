@@ -1,0 +1,21 @@
+.search {
+  background: rgba(255, 255, 255, 1);
+  border-radius: 50px;
+  display: flex;
+  display: inline-block;
+  margin-right: 5.4rem;
+  width: 300px;
+  padding: 0;
+  align-items: center;
+}
+
+.search input {
+  border-radius: 50px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.55);
+  outline: none;
+  font-size: 2rem;
+  padding-left: 1rem;
+  border: 0;
+  width: 85%;
+}

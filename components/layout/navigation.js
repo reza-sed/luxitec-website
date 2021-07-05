@@ -3,12 +3,13 @@ import classes from "./navigation.module.css";
 import Link from "next/link";
 import Logo from "./logo";
 import LangSelect from "../general/lang-select";
+import SearchBox from "../general/search-box";
 
 export default function Navigation() {
   return (
     <header className={classes.header}>
-      <Logo />
       <nav className={classes.navigation}>
+        <Logo />
         <ul className={classes.mainmenu}>
           <li>
             <Link href="/">Home</Link>
@@ -24,11 +25,9 @@ export default function Navigation() {
           </li>
         </ul>
       </nav>
-      <span>
+      <span className={classes.func}>
         <LangSelect />
-        <svg class="icon">
-          <use xlinkHref="/images/sites/sprite.svg#magnifying-glass"></use>
-        </svg>
+        <SearchBox />
       </span>
     </header>
   );

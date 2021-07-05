@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 5.4rem;
+  margin: 0 5.4rem 0 2.4rem;
 }
 
 .logo img {

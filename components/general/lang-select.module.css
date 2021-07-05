@@ -2,10 +2,16 @@
   width: 40px;
   font-size: 1.8rem;
   font-weight: 700;
+  margin-right: 5.4rem;
 }
 
 .container select {
   background: transparent;
   outline: none;
   border: 0;
+}
+
+.container select option {
+  background: #7b7878;
+  color: var(--color-secondary);
 }
