@@ -6,10 +6,10 @@ html {
 
 :root {
   --color-primary: #000000;
-  --color-secondary: #5d5b5b;
+  --color-secondary: #ffffff;
   --color-accent: #ddb53d;
   --color-headings: #000000;
-  --color-body: #000000;
+  --color-body: #ffffff;
 }
 
 * {
@@ -34,18 +34,23 @@ h1 {
   font-size: 9.6rem;
   font-weight: 700;
   line-height: 1.5;
-  margin-bottom: 3rem;
+  margin-bottom: 4.6rem;
 }
 
 h2 {
-  font-size: 4.8rem;
+  font-size: 3.4rem;
   margin-bottom: 3.6rem;
 }
 
 h3 {
-  font-size: 3.6rem;
+  font-size: 2.8rem;
 }
 
 p {
   margin-top: 0;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
 }

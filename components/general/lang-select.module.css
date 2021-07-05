@@ -1,0 +1,11 @@
+.container {
+  width: 40px;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.container select {
+  background: transparent;
+  outline: none;
+  border: 0;
+}
