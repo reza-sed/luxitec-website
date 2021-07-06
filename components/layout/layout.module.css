@@ -21,3 +21,12 @@
   height: 100%;
   height: 100vh;
 }
+
+.normal {
+  background: linear-gradient(
+    179.21deg,
+    #000000 0.67%,
+    rgba(0, 0, 0, 0) 99.32%
+  );
+  width: 100%;
+}

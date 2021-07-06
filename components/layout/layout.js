@@ -1,18 +1,24 @@
 import "normalize.css";
 import React, { Fragment } from "react";
 import Navigation from "./navigation";
-import Hero from "../home/hero";
 import Footer from "./footer";
+import Hero from "../home/hero";
 
 import classes from "./layout.module.css";
 
 export default function Layout(props) {
   return (
     <Fragment>
-      <div className={classes.splash}>
-        <Navigation />
-        <Hero />
-      </div>
+      {props.path === "/" ? (
+        <div className={classes.splash}>
+          <Navigation />
+          <Hero />
+        </div>
+      ) : (
+        <div className={classes.normal}>
+          <Navigation />
+        </div>
+      )}
       <main>{props.children}</main>
       <Footer />
     </Fragment>

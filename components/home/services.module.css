@@ -1,0 +1,47 @@
+.container {
+  text-align: center;
+  margin-top: 5.3rem;
+}
+
+.container p {
+  color: var(--color-primary);
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 11rem;
+}
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2.5rem;
+  margin: 0 2.5rem;
+  justify-items: center;
+}
+
+.services div {
+  cursor: pointer;
+  position: relative;
+  background: linear-gradient(
+    0deg,
+    #000000 0%,
+    rgba(0, 0, 0, 0.98738) 0.01%,
+    rgba(0, 0, 0, 0.0684155) 99.96%,
+    rgba(0, 0, 0, 0.0519057) 99.97%,
+    rgba(0, 0, 0, 0.0350068) 99.98%,
+    rgba(0, 0, 0, 0.0177085) 99.99%,
+    rgba(0, 0, 0, 0.2) 100%,
+    rgba(3, 3, 3, 0.59) 100%
+  );
+  z-index: 1;
+  border-radius: 20px;
+  padding: 0;
+  width: 32.9rem;
+}
+
+.services div h3 {
+  position: absolute;
+  z-index: 2;
+  color: var(--color-secondary);
+  width: 100%;
+  bottom: 0;
+}

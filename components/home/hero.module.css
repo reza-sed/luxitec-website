@@ -1,6 +1,7 @@
 .hero {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
+  height: 100vh;
 }
 
 .hero section {
