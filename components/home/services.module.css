@@ -1,6 +1,7 @@
 .container {
   text-align: center;
-  margin-top: 5.3rem;
+  margin-top: 10.8rem;
+  height: 100vh;
 }
 
 .container p {
@@ -8,6 +9,10 @@
   font-size: 1.8rem;
   font-weight: 600;
   margin-bottom: 11rem;
+}
+
+.container h2 {
+  font-size: 2.2rem;
 }
 
 .services {

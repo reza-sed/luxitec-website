@@ -1,0 +1,31 @@
+.container {
+  display: block;
+  text-align: center;
+  text-justify: distribute-all-lines;
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.9) 0%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url("/images/sites/aboutus-cover.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+}
+
+.container h2 {
+  font-size: 2.2rem;
+  color: var(--color-secondary);
+  font-weight: 700;
+  margin-top: 10.8rem;
+}
+
+.container p {
+  font-size: 1.6rem;
+  margin: 0 13.2rem;
+  line-height: 2;
+  text-justify: auto;
+}
