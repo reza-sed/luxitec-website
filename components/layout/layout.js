@@ -16,7 +16,7 @@ export default function Layout(props) {
         </div>
       ) : (
         <div className={classes.normal}>
-          <Navigation />
+          <Navigation path={props.path} />
         </div>
       )}
       <main>{props.children}</main>

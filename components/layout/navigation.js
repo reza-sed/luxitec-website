@@ -6,15 +6,18 @@ import LangSelect from "../general/lang-select";
 import SearchBox from "../general/search-box";
 
 export default function Navigation({ path }) {
+  console.log(path);
   return (
     <header className={classes.header}>
       <nav className={classes.navigation}>
         <Logo cls={classes.logo} />
         <ul className={classes.mainmenu}>
-          <li>
+          <li className={path === "/" ? classes.active : ""}>
             <Link href="/">Home</Link>
           </li>
-          <li>
+          <li
+            className={path && path.includes("services") ? classes.active : ""}
+          >
             <Link href="/#Services">Services</Link>
           </li>
           <li>

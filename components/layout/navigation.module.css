@@ -40,9 +40,9 @@
   color: var(--color-secondary);
 }
 
-/* .mainmenu li:nth-child(1) {
+.mainmenu li.active {
   border-bottom: 2px solid var(--color-accent);
-} */
+}
 
 .lang {
   font-size: 1.8rem;
