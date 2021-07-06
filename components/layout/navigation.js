@@ -15,13 +15,13 @@ export default function Navigation() {
             <Link href="/">Home</Link>
           </li>
           <li>
-            <a href="#Services">Services</a>
+            <Link href="/#Services">Services</Link>
           </li>
           <li>
-            <a href="#About-us">About us</a>
+            <Link href="/#About-us">About us</Link>
           </li>
           <li>
-            <a href="#Contact-us">Contact us</a>
+            <Link href="#Contact-us">Contact us</Link>
           </li>
         </ul>
       </nav>
