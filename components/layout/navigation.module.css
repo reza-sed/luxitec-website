@@ -3,11 +3,16 @@
   align-items: center;
   border-bottom: 1px solid var(--color-border);
   justify-content: space-between;
+  padding-top: 3rem;
 }
 
 .navigation {
   display: flex;
   align-items: flex-end;
+}
+
+.navigation .logo {
+  margin-bottom: -30px;
 }
 
 .mainmenu {
@@ -42,6 +47,5 @@
 
 .func {
   display: flex;
-  align-items: center;
-  margin-top: 5.3rem;
+  align-items: flex-end;
 }

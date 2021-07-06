@@ -9,7 +9,7 @@ export default function Navigation() {
   return (
     <header className={classes.header}>
       <nav className={classes.navigation}>
-        <Logo />
+        <Logo cls={classes.logo} />
         <ul className={classes.mainmenu}>
           <li>
             <Link href="/">Home</Link>
