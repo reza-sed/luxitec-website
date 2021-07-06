@@ -11,7 +11,7 @@ export default function Layout(props) {
     <Fragment>
       {props.path === "/" ? (
         <div className={classes.splash}>
-          <Navigation />
+          <Navigation path={props.path} />
           <Hero />
         </div>
       ) : (

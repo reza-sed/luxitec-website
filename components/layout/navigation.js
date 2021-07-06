@@ -5,7 +5,7 @@ import Logo from "./logo";
 import LangSelect from "../general/lang-select";
 import SearchBox from "../general/search-box";
 
-export default function Navigation() {
+export default function Navigation({ path }) {
   return (
     <header className={classes.header}>
       <nav className={classes.navigation}>
