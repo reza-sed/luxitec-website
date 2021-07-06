@@ -21,7 +21,7 @@ export default function Navigation({ path }) {
             <Link href="/#About-us">About us</Link>
           </li>
           <li>
-            <Link href="#Contact-us">Contact us</Link>
+            <Link href="/#Contact-us">Contact us</Link>
           </li>
         </ul>
       </nav>
