@@ -1,6 +1,7 @@
 import React from "react";
 import { ICONS } from "../../constants/icons";
 import Icon from "../general/icon";
+import PrimaryButton from "../general/primary-button";
 
 import classes from "./hero.module.css";
 
@@ -14,9 +15,7 @@ export default function Hero() {
           selling networking hardware, telecommunications equipment, and other
           high-technology services and products.
         </p>
-        <a className="btn btn--accent" href="#">
-          Read more
-        </a>
+        <PrimaryButton title={"Read more"} />
       </section>
       <seciotn className={classes.social}>
         <span className={classes.vline}></span>

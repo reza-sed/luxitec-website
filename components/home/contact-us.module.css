@@ -1,0 +1,22 @@
+.container {
+  text-align: center;
+  display: block;
+  padding: 6.8rem 0 7.9rem 0;
+}
+
+.container h2 {
+  font-size: 2.2rem;
+}
+
+.container p {
+  color: var(--color-accent);
+  font-size: 1.8rem;
+}
+
+.contact {
+  color: var(--color-primary);
+  margin-top: 11.2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
