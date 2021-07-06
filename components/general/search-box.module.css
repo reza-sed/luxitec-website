@@ -1,5 +1,5 @@
 .search {
-  background: rgba(255, 255, 255, 1);
+  background: rgba(255, 255, 255, 0.55);
   border-radius: 50px;
   display: flex;
   display: inline-block;
@@ -13,6 +13,7 @@
   border-radius: 50px;
   height: 40px;
   background: rgba(255, 255, 255, 0.55);
+  background-color: transparent;
   outline: none;
   font-size: 2rem;
   padding-left: 1rem;

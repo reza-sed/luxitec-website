@@ -10,6 +10,7 @@ html {
   --color-accent: #ddb53d;
   --color-headings: #000000;
   --color-body: #ffffff;
+  --color-border: rgba(96, 94, 94, 0.7);
 }
 
 * {
@@ -54,6 +55,7 @@ p {
 .icon {
   width: 24px;
   height: 24px;
+  fill: var(--color-secondary);
 }
 
 .btn {

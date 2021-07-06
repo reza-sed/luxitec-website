@@ -25,10 +25,10 @@ export default function Navigation() {
           </li>
         </ul>
       </nav>
-      <span className={classes.func}>
+      <div className={classes.func}>
         <LangSelect />
         <SearchBox />
-      </span>
+      </div>
     </header>
   );
 }

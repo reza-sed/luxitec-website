@@ -19,9 +19,9 @@ export default function Hero() {
         </a>
       </section>
       <seciotn className={classes.social}>
-        <Icon name={ICONS.instagram} />
-        <Icon name={ICONS.facebook} />
-        <Icon name={ICONS.linkedin} />
+        <Icon name={ICONS.instagram} cls={classes.social__item} />
+        <Icon name={ICONS.facebook} cls={classes.social__item} />
+        <Icon name={ICONS.linkedin} cls={classes.social__item} />
         <Icon name={ICONS.twitter} />
       </seciotn>
     </div>
