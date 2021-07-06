@@ -19,6 +19,7 @@ export default function Hero() {
         </a>
       </section>
       <seciotn className={classes.social}>
+        <span className={classes.vline}></span>
         <Icon name={ICONS.instagram} cls={classes.social__item} />
         <Icon name={ICONS.facebook} cls={classes.social__item} />
         <Icon name={ICONS.linkedin} cls={classes.social__item} />
