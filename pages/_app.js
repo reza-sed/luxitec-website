@@ -3,10 +3,10 @@ import "../styles/globals.css";
 import { useRouter } from "next/router";
 
 function MyApp({ Component, pageProps }) {
-  const { pathname } = useRouter();
+  const { pathname, locale } = useRouter();
 
   return (
-    <Layout path={pathname}>
+    <Layout locale={locale} path={pathname}>
       <Component {...pageProps} />
     </Layout>
   );
