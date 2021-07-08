@@ -3,20 +3,22 @@ import React, { Fragment } from "react";
 import Navigation from "./navigation";
 import Footer from "./footer";
 import Hero from "../home/hero";
-
 import classes from "./layout.module.css";
+import { useRouter } from "next/router";
 
 export default function Layout(props) {
+  const { pathname } = useRouter();
+
   return (
     <Fragment>
-      {props.path === "/" ? (
+      {pathname === "/" ? (
         <div className={classes.splash}>
-          <Navigation path={props.path} />
+          <Navigation path={pathname} />
           <Hero />
         </div>
       ) : (
         <div className={classes.normal}>
-          <Navigation path={props.path} />
+          <Navigation path={pathname} />
         </div>
       )}
       <main>{props.children}</main>

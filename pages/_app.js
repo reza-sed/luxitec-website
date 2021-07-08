@@ -1,15 +1,8 @@
-import Layout from "../components/layout/layout";
 import "../styles/globals.css";
-import { useRouter } from "next/router";
+import { appWithTranslation } from "next-i18next";
 
 function MyApp({ Component, pageProps }) {
-  const { pathname, locale } = useRouter();
-
-  return (
-    <Layout locale={locale} path={pathname}>
-      <Component {...pageProps} />
-    </Layout>
-  );
+  return <Component {...pageProps} />;
 }
 
-export default MyApp;
+export default appWithTranslation(MyApp);

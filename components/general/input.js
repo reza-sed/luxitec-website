@@ -1,10 +1,15 @@
 import React from "react";
 import classes from "./input.module.css";
 
-export default function Input({ placeholder }) {
+export default function Input({ placeholder, name }) {
   return (
     <span>
-      <input className={classes.input} type="text" placeholder={placeholder} />
+      <input
+        name={name}
+        className={classes.input}
+        type="text"
+        placeholder={placeholder}
+      />
     </span>
   );
 }

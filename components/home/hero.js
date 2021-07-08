@@ -1,21 +1,19 @@
+import { useTranslation } from "next-i18next";
 import React from "react";
 import { ICONS } from "../../constants/icons";
 import Icon from "../general/icon";
 import PrimaryButton from "../general/primary-button";
-
 import classes from "./hero.module.css";
 
 export default function Hero() {
+  const { t } = useTranslation("common");
+
   return (
     <div className={classes.hero}>
       <section>
         <h1>LUXITEC</h1>
-        <p>
-          multinational technology conglomerate developing, manufacturing, and
-          selling networking hardware, telecommunications equipment, and other
-          high-technology services and products.
-        </p>
-        <PrimaryButton title={"Read more"} />
+        <p>{t("Hero paragraph")}</p>
+        <PrimaryButton title={t("Read more")} />
       </section>
       <seciotn className={classes.social}>
         <span className={classes.vline}></span>

@@ -11,9 +11,9 @@ export default function LangSelect() {
 
   return (
     <span className={classes.container}>
-      <select onChange={handleChange} defaultValue="en-US">
-        <option value="en-US">En</option>
-        <option value="de-DE">De</option>
+      <select onChange={handleChange} value={router.locale}>
+        <option value="en">En</option>
+        <option value="de">De</option>
       </select>
     </span>
   );
