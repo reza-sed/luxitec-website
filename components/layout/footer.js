@@ -8,7 +8,7 @@ export default function Footer() {
     <footer className={classes.footer}>
       <ContactForm />
       <SocialNetworks />
-      <span>&copy; Copyright 2021 LUXITEC</span>
+      <span>&copy; Copyright {new Date().getFullYear()} LUXITEC</span>
     </footer>
   );
 }

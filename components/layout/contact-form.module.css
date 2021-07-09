@@ -12,3 +12,9 @@
 .container .cls {
   margin: 0 auto;
 }
+
+.error {
+  color: var(--color-error);
+  font-size: 1.4rem;
+  font-style: italic;
+}
