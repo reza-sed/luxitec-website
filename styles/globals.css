@@ -76,6 +76,15 @@ p {
   border: 0;
 }
 
+@media screen and (max-width: 900px) {
+  .btn {
+    width: 140px;
+    border-radius: 50px;
+    height: 42px;
+    font-size: 1.4rem;
+  }
+}
+
 .btn--accent {
   background: var(--color-accent);
 }
