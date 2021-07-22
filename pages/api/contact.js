@@ -8,6 +8,7 @@ async function handler(req, res) {
     const { name, subject, message, email } = req.body;
     const contactModel = new Contact({ name, subject, message, email });
     const result = await contactModel.save();
+
     res
       .status(201)
       .json({ message: "Thanks! We will repond as soon as POSSIBLE !" });

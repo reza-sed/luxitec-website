@@ -4,7 +4,7 @@
   height: 100vh;
 }
 
-.hero section {
+.hero__content {
   grid-column-start: 2;
   grid-column-end: 5;
 }
@@ -33,4 +33,24 @@
   margin-bottom: 2.6rem;
   grid-row-start: 1;
   grid-row-end: 7;
+}
+
+@media screen and (max-width: 900px) {
+  .social {
+    display: none;
+  }
+
+  .hero {
+    display: block;
+    padding: 1.6rem;
+  }
+
+  .hero h1 {
+    font-size: 5rem;
+  }
+
+  .hero p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
 }

@@ -23,11 +23,6 @@
 }
 
 .normal {
-  /* background: linear-gradient(
-    179.21deg,
-    #000000 0.67%,
-    rgba(0, 0, 0, 0) 99.32%
-  ); */
   background: var(--color-primary);
   width: 100%;
 }

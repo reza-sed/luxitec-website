@@ -10,18 +10,18 @@ export default function Hero() {
 
   return (
     <div className={classes.hero}>
-      <section>
+      <section className={classes.hero__content}>
         <h1>LUXITEC</h1>
         <p>{t("Hero paragraph")}</p>
         <PrimaryButton title={t("Read more")} />
       </section>
-      <seciotn className={classes.social}>
+      <section className={classes.social}>
         <span className={classes.vline}></span>
-        <Icon name={ICONS.instagram} cls={classes.social__item} />
-        <Icon name={ICONS.facebook} cls={classes.social__item} />
-        <Icon name={ICONS.linkedin} cls={classes.social__item} />
+        <Icon name={ICONS.instagram} />
+        <Icon name={ICONS.facebook} />
+        <Icon name={ICONS.linkedin} />
         <Icon name={ICONS.twitter} />
-      </seciotn>
+      </section>
     </div>
   );
 }

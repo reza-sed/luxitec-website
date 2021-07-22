@@ -2,7 +2,6 @@
   display: block;
   text-align: center;
   padding: 5.3rem 0 19.3rem 0;
-  height: 100vh;
 }
 
 .container p {
@@ -50,4 +49,25 @@
   color: var(--color-secondary);
   width: 100%;
   bottom: 0;
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    display: block;
+    text-align: center;
+  }
+
+  .container p {
+    margin-bottom: 2.5rem;
+  }
+
+  .services {
+    display: block;
+    text-align: center;
+  }
+
+  .services div {
+    max-height: 13.2rem;
+    margin: 2.4rem auto;
+  }
 }

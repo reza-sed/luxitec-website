@@ -18,3 +18,9 @@
   font-size: 1.4rem;
   font-style: italic;
 }
+
+@media screen and (max-width: 900px) {
+  .container {
+    padding: 1.7rem;
+  }
+}
